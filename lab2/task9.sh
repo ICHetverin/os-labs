@@ -1,9 +1,4 @@
 #!/bin/bash
-# Задание 9: среднее время непрерывного использования CPU для всех процессов
-# Формат: ProcessID=PID : Parent_ProcessID=PPID : Average_Running_Time=ART
-# ART = sum_exec_runtime / nr_switches (из /proc/<PID>/sched)
-# PPid — из /proc/<PID>/status
-# Вывод отсортирован по PPID
 
 OUTPUT="task9_output.txt"
 : > "$OUTPUT"

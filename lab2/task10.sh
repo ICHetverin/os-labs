@@ -1,7 +1,4 @@
 #!/bin/bash
-# Задание 10: после каждой группы с одинаковым PPID вставить строку
-# вида: Average_Running_Children_of_ParentID=N is M
-# Читает task9_output.txt (или файл из аргумента), пишет task10_output.txt
 
 INPUT="${1:-task9_output.txt}"
 OUTPUT="task10_output.txt"

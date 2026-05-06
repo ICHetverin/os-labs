@@ -1,6 +1,4 @@
 #!/bin/bash
-# Задание 11: найти процесс с наибольшим выделенным объёмом RAM через /proc
-# и сравнить с выводом top
 
 max_pid=""
 max_resident=0
@@ -15,7 +13,7 @@ for statm_file in /proc/[0-9]*/statm; do
     fi
 done
 
-page_kb=4  # 4 KB на страницу (типовое значение)
+page_kb=4
 mem_kb=$((max_resident * page_kb))
 
 echo "=== /proc: процесс с наибольшим объёмом RAM ==="

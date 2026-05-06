@@ -1,5 +1,4 @@
 #!/bin/bash
-# Задание 7.2: сетевые и файловые операции бинарника troubleshooting через strace
 
 BINARY="./troubleshooting"
 
